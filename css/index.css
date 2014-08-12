@@ -1,0 +1,30 @@
+#board{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #808080;
+}
+#board tr{
+	max-height: 10px;
+}
+#board tr td{
+	border: 1px solid #808080;
+	font-size: 33px;
+	height: 40px;
+	text-align: center;
+	width: 40px;
+}
+#torre{
+	width: 4em;
+	height: 4em;
+}
+#turnoactual{
+	display: block;
+	font-size: 1em;
+	text-align: left;
+}
+.white{
+	background-color: #FFF;
+}
+.black{
+	background-color: #808080;
+}
